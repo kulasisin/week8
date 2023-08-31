@@ -1,0 +1,62 @@
+.navbar {
+  box-shadow: 0px 4px 8px 0px #00000029;
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  border-bottom: 1px white solid;
+
+  .toggler-color {
+    color: white;
+    border: transparent !important;
+    padding: 0 !important;
+    &:focus {
+      color: rgba(255, 255, 255, 0.541);
+      border-radius: 10%;
+    }
+    & span {
+      font-size: 44px;
+    }
+  }
+  .navbar-collapse {
+    @media (max-width: 992px) {
+      background: linear-gradient(180deg, #7000ff 0%, #11002d 100%);
+      position: absolute;
+      z-index: 1;
+      top: 72px;
+      left: 0;
+      width: 100%;
+    }
+    &::before {
+      content: "";
+      width: 0%;
+      position: absolute;
+      border-top: white 1px solid;
+      top: 0;
+      transition: 1.2s;
+      left: 0;
+    }
+  }
+  .show.navbar-collapse::before {
+    content: "";
+    width: 100%;
+    position: absolute;
+    border-top: white 1px solid;
+    top: 0px;
+    left: 0;
+    transition: 1.2s;
+  }
+
+  ul a {
+    padding: 8px 20px;
+  }
+
+  .nav-register a {
+    padding: 8px 12px;
+  }
+
+  a:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+  }
+}

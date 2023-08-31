@@ -1,0 +1,22 @@
+.first-news {
+  @include desk {
+    padding-top: 240px;
+    padding-bottom: 120px;
+    padding-left: 110px !important;
+    padding-right: 110px !important;
+  }
+  padding-top: 140px;
+  padding-bottom: 80px;
+
+  .news-list {
+    a::after {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 1;
+      content: "";
+    }
+  }
+}

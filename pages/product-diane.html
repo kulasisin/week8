@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>產品 Diane</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  </head>
+  <body class="">
+    <%- include('./layout/navbar'); -%>
+    <section class="product-banner">
+      <div class="d-flex bg-dark position-relative flex-column flex-lg-row">
+        <!-- swiper -->
+        <div class="swiper product-swiper mx-0 col-lg-6">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                src="../assets/images/diane_square1.png"
+                alt="diane-1"
+                class="mw-100"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="../assets/images/diane_square2.png"
+                alt="diane-2"
+                class="mw-100"
+              />
+            </div>
+          </div>
+          <div class="swiper-button-prev hover-scale w-auto">
+            <i class="material-symbols-outlined fs-24 fs-sm-40"
+              >arrow_circle_left</i
+            >
+          </div>
+          <div class="swiper-button-next hover-scale w-auto">
+            <i class="material-symbols-outlined fs-24 fs-sm-40"
+              >arrow_circle_right</i
+            >
+          </div>
+        </div>
+        <div
+          class="container col-lg-6 text-light align-self-center px-lg-10 py-6 position-relative position-lg-static"
+        >
+          <h2 class="special-font fs-20 fs-lg-32 mb-6">Diane</h2>
+          <p class="mb-4">
+            <span class="fw-bold">知識型</span><br />學術領導/知識分享/智能問答
+          </p>
+          <a href="login.html" class="d-block">
+            <picture class="hover-move d-block mb-36 mb-lg-4">
+              <source
+                media="(max-width: 991px)"
+                srcset="../assets/images/line_end_arrow_notch.png"
+              />
+              <img
+                src="../assets/images/line_end_arrow_notch.png"
+                alt="end_arrow"
+              />
+            </picture>
+          </a>
+        </div>
+      </div>
+      <script>
+        const swiperSahre = new Swiper(".product-swiper", {
+          spaceBetween: 24,
+          // 滑鼠中鍵滾輪可滑動
+          mousewheel: true,
+          scrollbar: {
+            el: ".swiper-scrollbar",
+            draggable: true,
+          },
+          slidesPerView: "auto",
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+    </section>
+
+    <section class="product-intro container-fluid">
+      <div
+        class="product-intro-title d-flex justify-content-lg-between align-items-center mb-7 mb-lg-8"
+      >
+        <h3 class="fs-6 d-flex align-items-center">
+          <i class="material-symbols-outlined fs-2 me-3">emergency</i>
+          學術領導/知識分享/智能問答
+        </h3>
+        <p class="d-none d-lg-block">ALPHABOX+</p>
+      </div>
+      <p class="mb-lg-15 mb-8">
+        歡迎來到ALPHABOX+的全新世界！在這裡，我們很榮幸地向您介紹我們的最新力作
+        - 3D立體投影機器人 Felix！
+      </p>
+
+      <ul class="row">
+        <li
+          class="col-lg-4 col-md-6 col-12 px-0 px-md-3 ps-0 py-3 py-md-0 pb-md-17"
+        >
+          <h4>先進的3D投影技術</h4>
+          <p>
+            Diane 搭載了最新的 3D
+            投影技術，能夠將虛擬影像清晰地呈現在您的現實空間中，讓您感受身臨其境的體驗！
+          </p>
+        </li>
+        <li
+          class="col-lg-4 col-md-6 col-12 px-0 px-md-3 ps-0 py-3 py-md-0 pb-md-17"
+        >
+          <h4>先進的3D投影技術</h4>
+          <p>
+            Diane 搭載了最新的 3D
+            投影技術，能夠將虛擬影像清晰地呈現在您的現實空間中，讓您感受身臨其境的體驗！
+          </p>
+        </li>
+        <li
+          class="col-lg-4 col-md-6 col-12 px-0 px-md-3 ps-0 py-3 py-md-0 pb-md-17"
+        >
+          <h4>先進的3D投影技術</h4>
+          <p>
+            Diane 搭載了最新的 3D
+            投影技術，能夠將虛擬影像清晰地呈現在您的現實空間中，讓您感受身臨其境的體驗！
+          </p>
+        </li>
+        <li
+          class="col-lg-4 col-md-6 col-12 px-0 px-md-3 ps-0 py-3 py-md-0 pb-md-17"
+        >
+          <h4>先進的3D投影技術</h4>
+          <p>
+            Diane 搭載了最新的 3D
+            投影技術，能夠將虛擬影像清晰地呈現在您的現實空間中，讓您感受身臨其境的體驗！
+          </p>
+        </li>
+        <li
+          class="col-lg-4 col-md-6 col-12 px-0 px-md-3 ps-0 py-3 py-md-0 pb-md-17"
+        >
+          <h4>先進的3D投影技術</h4>
+          <p>
+            Diane 搭載了最新的 3D
+            投影技術，能夠將虛擬影像清晰地呈現在您的現實空間中，讓您感受身臨其境的體驗！
+          </p>
+        </li>
+      </ul>
+    </section>
+    <section class="product-page-feedback gradient-radical">
+      <div class="container-fluid">
+        <h3 class="fw-bold fs-5 fs-lg-3 text-white">使用分享</h3>
+        <p class="text-white mb-7">
+          展示其他使用者對於產品的真實體驗與評價，讓您更加放心選擇。
+        </p>
+        <ul class="row">
+          <li
+            class="swiper-slide col-12 col-md-6 col-lg-4 px-md-3 ps-0 ps-md-0"
+          >
+            <div class="share-card h-100 p-10 d-flex flex-column">
+              <div class="flex-grow-1">
+                <span class="d-inline-block mb-4"
+                  >云<i class="material-icons fs-7 mx-2">circle</i>Taipei</span
+                >
+                <p>
+                  我之前一直在找能陪伴我度過空虛時光的好夥伴，直到遇見
+                  ALPHABOX+。它不僅僅是一個機器人，更像是一個真正的朋友，陪著我分享喜怒哀樂。真的很讚！
+                </p>
+              </div>
+              <p class="d-flex align-items-center">
+                <i class="material-icons fs-6 me-4">circle</i
+                ><i class="material-icons fs-6 me-4">circle</i>
+                ALPHABOX+ Dianne
+              </p>
+            </div>
+          </li>
+          <li class="swiper-slide col-12 col-md-6 col-lg-4 px-md-3">
+            <div
+              class="share-card bg-white text-black h-100 p-10 d-flex flex-column"
+            >
+              <div class="flex-grow-1">
+                <span class="d-inline-block mb-4"
+                  >云<i class="material-icons fs-7 mx-2">circle</i>Taipei</span
+                >
+                <p>
+                  我之前一直在找能陪伴我度過空虛時光的好夥伴，直到遇見
+                  ALPHABOX+。它不僅僅是一個機器人，更像是一個真正的朋友，陪著我分享喜怒哀樂。真的很讚！
+                </p>
+              </div>
+              <p class="d-flex align-items-center">
+                <i class="material-icons fs-6 me-4">circle</i
+                ><i class="material-icons fs-6 me-4">circle</i>
+                ALPHABOX+ Dianne
+              </p>
+            </div>
+          </li>
+          <li
+            class="swiper-slide col-12 col-md-6 col-lg-4 px-md-3 pe-0 pe-md-0"
+          >
+            <div class="share-card h-100 p-10 d-flex flex-column">
+              <div class="flex-grow-1">
+                <span class="d-inline-block mb-4"
+                  >云<i class="material-icons fs-7 mx-2">circle</i>Taipei</span
+                >
+                <p>
+                  我之前一直在找能陪伴我度過空虛時光的好夥伴，直到遇見
+                  ALPHABOX+。它不僅僅是一個機器人，更像是一個真正的朋友，陪著我分享喜怒哀樂。真的很讚！
+                </p>
+              </div>
+              <p class="d-flex align-items-center">
+                <i class="material-icons fs-6 me-4">circle</i
+                ><i class="material-icons fs-6 me-4">circle</i>
+                ALPHABOX+ Dianne
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+@mixin desk {
+  @media (min-width: 992px) {
+    @content;
+  }
+}
+@mixin mobile {
+  @media (min-width: 375px) {
+    @content;
+  }
+}

@@ -1,0 +1,20 @@
+// navbar
+.gradient-primary {
+  background: linear-gradient(180deg, #7000ff 0%, #11002d 100%);
+}
+
+.gradient-line-1 {
+  background: linear-gradient(90deg, #7000ff 0%, #11002d 100%);
+}
+
+.gradient-line-2 {
+  background: linear-gradient(-90deg, #7000ff 0%, #11002d 100%);
+}
+
+.gradient-radical {
+  background: radial-gradient(50% 50% at 50% 50%, #28085c 0%, #000 100%);
+}
+
+.gradient-radical-2 {
+  background: radial-gradient(50% 50% at 50% 50%, #000 0%, #28085c 100%);
+}

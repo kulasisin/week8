@@ -1,0 +1,70 @@
+$utilities: (
+  "font-size": (
+    // rfs: true,
+    responsive: true,
+    property: font-size,
+    class: fs,
+    values: $font-sizes,
+  ),
+);
+
+.border-lg-left {
+  @include desk {
+    border-left: solid 1px;
+  }
+}
+
+.border-lg-bottom {
+  @include desk {
+    border-bottom: solid 1px;
+  }
+}
+.mb-lg-136 {
+  @include desk {
+    margin-bottom: 136px;
+  }
+}
+
+.row-gap-7 {
+  row-gap: 24px;
+}
+
+.row-gap-lg-0 {
+  @include desk {
+    row-gap: 0px;
+  }
+}
+.col-gap-7 {
+  column-gap: 24px;
+}
+
+.ls-lg-48 {
+  @include desk {
+    letter-spacing: 48px;
+  }
+}
+.ls-lg-96 {
+  @include desk {
+    letter-spacing: 96px !important;
+  }
+}
+
+.ls-lg-320 {
+  @include desk {
+    letter-spacing: 320px;
+  }
+}
+.ls-24 {
+  letter-spacing: 24px;
+}
+.ls-40 {
+  letter-spacing: 40px !important;
+}
+
+.ls-240 {
+  letter-spacing: 240px !important;
+}
+
+.border-3 {
+  border-top: solid black 12px;
+}
